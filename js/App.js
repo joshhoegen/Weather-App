@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import WeatherWidget from './weather-widget'
 
-let App = React.createClass( {
+export default React.createClass( {
   render() {
     let Widget = WeatherWidget;
     return (
@@ -10,6 +10,4 @@ let App = React.createClass( {
       </div>
     );
   }
-}
-
-export default App;
+});
