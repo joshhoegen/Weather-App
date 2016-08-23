@@ -39,8 +39,12 @@ export default React.createClass({
       <div className="weather-widget">
         <div className="location">
           {this.state.location.city}, {this.state.location.region}
-          <select onChange={this.change} className="location-select">
-            <option selected="selected" disabled="disabled">Select a location</option>
+          <select onChange={this.change}
+            value={this.state.location.city +
+              ',' + this.state.location.region}
+            selected={this.state.location.city +
+              ',' + this.state.location.region} className="location-select">
+            <option value="Fairfax, VA">Fairfax, VA</option>
             <option value="Providence, RI">Providence, RI</option>
             <option value="Washington, DC">Washington, DC</option>
             <option value="New York, NY">New York, NY</option>
