@@ -35,6 +35,8 @@ export default React.createClass({
       return <div className='loading'>Loading...</div>
     }
 
+    let range = _.range(100);
+
     return (
       <div className="weather-widget">
         <div className="location">
@@ -50,7 +52,7 @@ export default React.createClass({
             <option value="New York, NY">New York, NY</option>
           </select>
         </div>
-        <div className='today'>
+        <div className={'today ' + 'bg-' + this.state.now.code}>
           <div className='today-temperature'>{this.state.now.temp}&deg;</div>
           <div>
             <i className={'icon-' + this.state.now.code}></i>
