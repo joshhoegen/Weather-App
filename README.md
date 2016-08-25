@@ -1,3 +1,5 @@
+![alt tag](https://raw.githubusercontent.com/joshhoegen/Weather-App/master/weather-widget-preview.png)
+
 ## Based off of [React ES6 Webpack Boilerplate](https://github.com/vasanthk/react-es6-webpack-boilerplate)
 
 ### Usage
