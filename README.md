@@ -4,7 +4,8 @@
 
 ### Usage
 
-* ```
+*
+```
 npm install
 npm start
 ```
@@ -13,6 +14,7 @@ npm start
 
 ### TODO: Color code weather-widget
 Get all icon number and images like so:
+
 ```
 {range.map((i)=>{
     return (
