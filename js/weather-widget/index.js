@@ -35,8 +35,6 @@ export default React.createClass({
       return <div className='loading'>Loading...</div>
     }
 
-    let range = _.range(100);
-
     return (
       <div className="weather-widget">
         <div className="location">
