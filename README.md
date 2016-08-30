@@ -12,7 +12,7 @@ npm start
 * Open http://localhost:5000
 
 
-### TODO: Color code weather-widget
+### TODO: Better color code weather-widget
 Get all icon number and images like so:
 
 ```
