@@ -25,3 +25,5 @@ Get all icon number and images like so:
     )
 })}
 ```
+
+Have Fun!
